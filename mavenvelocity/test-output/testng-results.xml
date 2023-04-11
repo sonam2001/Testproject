@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-04-05T16:37:47 IST" name="Default suite" finished-at="2023-04-05T16:38:09 IST" duration-ms="21465">
+    <groups>
+    </groups>
+    <test started-at="2023-04-05T16:37:47 IST" name="Default test" finished-at="2023-04-05T16:38:09 IST" duration-ms="21465">
+      <class name="testNgpackSnapdeal.VerifyTitleOnGiftpage">
+        <test-method is-config="true" signature="OpenBrowser()[pri:0, instance:testNgpackSnapdeal.VerifyTitleOnGiftpage@57af006c]" started-at="2023-04-05T16:37:47 IST" name="OpenBrowser" finished-at="2023-04-05T16:37:52 IST" duration-ms="4797" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method is-config="true" signature="gotoGiftpage()[pri:0, instance:testNgpackSnapdeal.VerifyTitleOnGiftpage@57af006c]" started-at="2023-04-05T16:37:52 IST" name="gotoGiftpage" finished-at="2023-04-05T16:38:07 IST" duration-ms="14445" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gotoGiftpage -->
+        <test-method signature="VerifytextonGiftpage()[pri:0, instance:testNgpackSnapdeal.VerifyTitleOnGiftpage@57af006c]" started-at="2023-04-05T16:38:07 IST" name="VerifytextonGiftpage" finished-at="2023-04-05T16:38:09 IST" duration-ms="2157" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifytextonGiftpage -->
+        <test-method is-config="true" signature="gotomainpage()[pri:0, instance:testNgpackSnapdeal.VerifyTitleOnGiftpage@57af006c]" started-at="2023-04-05T16:38:09 IST" name="gotomainpage" finished-at="2023-04-05T16:38:09 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gotomainpage -->
+        <test-method is-config="true" signature="closebrowse()[pri:0, instance:testNgpackSnapdeal.VerifyTitleOnGiftpage@57af006c]" started-at="2023-04-05T16:38:09 IST" name="closebrowse" finished-at="2023-04-05T16:38:09 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowse -->
+      </class> <!-- testNgpackSnapdeal.VerifyTitleOnGiftpage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

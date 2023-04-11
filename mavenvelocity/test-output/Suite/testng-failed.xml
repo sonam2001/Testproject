@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="classes" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="2" parallel="classes" name="EdgeTest(failed)">
+    <parameter name="browser" value="Edge"/>
+    <classes>
+      <class name="testNgpack.Verifyurlofproductpage">
+        <methods>
+          <include name="gotomainpage"/>
+          <include name="Verifycurrenturlofproductpage"/>
+          <include name="closebrowse"/>
+          <include name="Quit"/>
+          <include name="gotoproductpage"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- testNgpack.Verifyurlofproductpage -->
+    </classes>
+  </test> <!-- EdgeTest(failed) -->
+  <test thread-count="2" parallel="classes" name="ChromeTest(failed)">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="testNgpack.Verifyurlofproductpage">
+        <methods>
+          <include name="gotomainpage"/>
+          <include name="Verifycurrenturlofproductpage"/>
+          <include name="closebrowse"/>
+          <include name="Quit"/>
+          <include name="gotoproductpage"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- testNgpack.Verifyurlofproductpage -->
+    </classes>
+  </test> <!-- ChromeTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
